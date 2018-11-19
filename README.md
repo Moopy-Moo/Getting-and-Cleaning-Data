@@ -2,7 +2,7 @@
 This repo is week 4 assignment for Coursera Data Science series Course 3.
 
 Files in this repo
-README1.md: information on where the data comes from
+README.md: information on where the data comes from
 CodeBook.md: codebook describing variables
 run_analysis.R: R code that can be executed with R or R studio
 
