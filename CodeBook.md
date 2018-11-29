@@ -40,29 +40,32 @@ For each record in the dataset it is provided:
 
 	6. LAYING
 ## vectors:
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+	tBodyAcc-XYZ
+	tGravityAcc-XYZ
+	tBodyAccJerk-XYZ
+	tBodyGyro-XYZ
+	tBodyGyroJerk-XYZ
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
+	fBodyAcc-XYZ
+	fBodyAccJerk-XYZ
+	fBodyGyro-XYZ
+	fBodyAccMag
+	fBodyAccJerkMag
+	fBodyGyroMag
+	fBodyGyroJerkMag
+	
 	tBody = time body
 	tGravity= time gravity
 	Mag = magnitude
 	Gyro = gyroscope
 	Acc = accelerometer
 	fBody = fast Fourier transform body
+	
+	xyz are directions
 
 ## Transformation:
 1. Merges the training and the test sets to create one data set.
