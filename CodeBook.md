@@ -28,22 +28,21 @@ For each record in the dataset it is provided:
 # Variables
 ## test subject: 1-30
 ## activties: 1-6
-## activity lables contain:
-	WALKING
+	1. WALKING
 
-	WALKING_UPSTAIRS
+	2. WALKING_UPSTAIRS
 
-	WALKING_DOWNSTAIRS
+	3. WALKING_DOWNSTAIRS
 
-	SITTING
+	4. SITTING
 
-	STANDING
+	5. STANDING
 
-	LAYING
+	6. LAYING
 
 ## Transformation:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activiteis in the data set.
-4. Appropriately labels the data set with descriptive variable names.
+3. Uses descriptive activity names to name the activiteis in the data set. 
+4. Appropriately labels the data set with descriptive variable names. Also expanding the abbreviation so the names are easier to read.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
