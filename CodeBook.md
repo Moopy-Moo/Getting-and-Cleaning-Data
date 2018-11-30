@@ -73,3 +73,6 @@ For each record in the dataset it is provided:
 3. Uses descriptive activity names to name the activiteis in the data set. 
 4. Appropriately labels the data set with descriptive variable names. Also expanding the abbreviation so the names are easier to read.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# Instruction
+when you open up run_analysis.R, make sure you change the working directory to where you store the documents, and change the first 6 read.csv commands into appropriate address of YOUR files. This will not work if you don't change it because i wrote the file location that's on MY computer.
